@@ -16,22 +16,22 @@
   <div class="container m-t-xl m-b-xl">
 
     <div class="row m-b-xl">
-      <div class="col-md-12 showcase-header" ng-bind-html="vm.header">
+      <div class="col-md-12 showcase-header" ng-bind-html="::vm.header">
       </div>
     </div>
     <hr> 
     
 
-    <div class="row m-b-xl" ng-repeat="service in vm.services">
+    <div class="row m-b-xl" ng-repeat="service in ::vm.services">
       <div class="col-md-12 showcase-service">
 
         <!-- Content goes here -->
-        <div ng-bind-html="service.content"></div>
+        <div ng-bind-html="::service.content"></div>
 
         <ul class="feature-list">
-          <li class="feature" ng-repeat="feature in service.features">
+          <li class="feature" ng-repeat="feature in ::service.features">
             <div class="icon">
-              <span class="hpe-icon" ng-class="feature.icon"></span>
+              <span class="hpe-icon" ng-class="::feature.icon"></span>
             </div>
 
             <h3 class="header" ng-bind="::feature.title"></h3>
@@ -41,7 +41,7 @@
 
         <br>
         <blockquote>
-          <p><strong>Open Source Status</strong>: <span ng-bind="service.status"></span></p>
+          <p><strong>Open Source Status</strong>: <span ng-bind="::service.status"></span></p>
         </blockquote>
       </div>
     </div>
