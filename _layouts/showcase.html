@@ -22,17 +22,35 @@
           </div>
       </div>
       <hr>
-
-      <!--<h1 class="text-center text-black m-t-lg m-b-lg">Services</h1>-->
-
+      
       {% for section in site.data.showcase.services %}
       
       <div class="row m-b-xl">
           <div class="col-md-12 showcase-service">
-            {% capture markdown-include %}{% include_relative {{ section.en-us }} %}{% endcapture %}
+            {% capture markdown-include %}{% include_relative {{ section.en-us.content }} %}{% endcapture %}
             {{ markdown-include | markdownify }}
+
+
+            <ul class="feature-list">
+              {% for feature in section.en-us.features %}
+              <li class="feature">
+                  <div class="icon">
+                      <span class="hpe-icon {{ feature.icon }}"></span>
+                  </div>
+
+                  <h3 class="header">{{ feature.title }}</h3>
+                  <p class="description">{{ feature.description }}</p>
+              </li>
+              {% endfor %}
+            </ul>
+
+            <br>
+            <blockquote>
+              <p><strong>Open Source Status</strong>: {{ section.en-us.status }}</p>
+            </blockquote>
           </div>
       </div>
+
       <hr>
       {% endfor %}
 

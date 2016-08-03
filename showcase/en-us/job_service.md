@@ -1,5 +1,7 @@
 ## Job Service
 
+[Source Code](https://github.hpe.com/caf/job-service) / [Documentation](https://github.hpe.com/caf/job-service)
+
 The Job service provides an extensible framework for the distributed processing of batch workloads using an elastically scaled pool of workers
 built using the worker framework. The Job service’s extensible design allows you to define a batch of work and provide a batch processor plugin
 that interprets a batch, splitting it into smaller batches or individual items of work upon which the service can act. The process of batch splitting

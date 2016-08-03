@@ -202,3 +202,49 @@
     line-height: 19px;
     color: #333;
 }
+
+.showcase-service blockquote p strong {
+	font-family: Metric;
+	font-weight: 500;
+}
+
+
+.feature-list {
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.feature-list .feature {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-width: 250px;
+	max-width: 255px;
+	text-align: center;
+	flex: 1;
+	margin: 0 15px;
+	align-self: baseline;
+	margin-bottom: 10px;
+}
+
+.feature-list .feature .icon {
+    font-size: 30px;
+		color: #000;
+		margin-bottom: 10px;
+}
+
+.feature-list .feature .header {
+	font-family: Metric;
+	color: #000;
+	margin: 0;
+	font-size: 22px;
+}
+
+.feature-list .feature .description {
+	padding-top: 8px;
+	font-size: 18px;
+	line-height: 28px;
+}

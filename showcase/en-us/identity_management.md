@@ -1,5 +1,7 @@
 ## Identity Management
 
+[Source Code](https://github.hpe.com/caf/idm/) / [Documentation](https://github.hpe.com/caf/idm/)
+
 The Identity Management service provides authentication and authorization of end users as well as other, related micro-services. The Identity
 Management service implements authentication and authorization of end users as well as other, related micro-services. Authentication uses the
 industry standard OAUTH 2Ŀ0 protocol with encrypted tokens of varying life spans. For user management, Identity Management supports
