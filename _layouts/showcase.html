@@ -1,79 +1,65 @@
 <!DOCTYPE html>
 <html>
 
-{% include head.html %}
+{% include head.html %} 
 
-<body class="splash-page">
+<body class="splash-page" ng-app="cafapi" ng-controller="MainCtrl as vm">
 
   <div class="splash-header">
-      <div class="caf-brand">
-          <img class="logo" src="{{ page.logo }}" alt="">
-          <h2 class="title">{{ page.title }}</h2>
-          <h3 class="slogan">{{ page.slogan }}</h3>
-      </div>
+    <div class="caf-brand">
+      <img class="logo" src="{{ page.logo }}" alt="">
+      <h2 class="title">{{ page.title }}</h2>
+      <h3 class="slogan">{{ page.slogan }}</h3>
+    </div>
   </div>
 
   <div class="container m-t-xl m-b-xl">
 
-      <div class="row m-b-xl">
-          <div class="col-md-12 showcase-header">
-            {% capture markdown-include %}{% include_relative {{ site.data.showcase.header.en-us }} %}{% endcapture %}
-            {{ markdown-include | markdownify }}
-          </div>
+    <div class="row m-b-xl">
+      <div class="col-md-12 showcase-header" ng-bind-html="vm.header">
       </div>
-      <hr>
-      
-      {% for section in site.data.showcase.services %}
-      
-      <div class="row m-b-xl">
-          <div class="col-md-12 showcase-service">
-            {% capture markdown-include %}{% include_relative {{ section.en-us.content }} %}{% endcapture %}
-            {{ markdown-include | markdownify }}
+    </div>
+    <hr> 
+    
 
+    <div class="row m-b-xl" ng-repeat="service in vm.services">
+      <div class="col-md-12 showcase-service">
 
-            <ul class="feature-list">
-              {% for feature in section.en-us.features %}
-              <li class="feature">
-                  <div class="icon">
-                      <span class="hpe-icon {{ feature.icon }}"></span>
-                  </div>
+        <!-- Content goes here -->
+        <div ng-bind-html="service.content"></div>
 
-                  <h3 class="header">{{ feature.title }}</h3>
-                  <p class="description">{{ feature.description }}</p>
-              </li>
-              {% endfor %}
-            </ul>
+        <ul class="feature-list">
+          <li class="feature" ng-repeat="feature in service.features">
+            <div class="icon">
+              <span class="hpe-icon" ng-class="feature.icon"></span>
+            </div>
 
-            <br>
-            <blockquote>
-              <p><strong>Open Source Status</strong>: {{ section.en-us.status }}</p>
-            </blockquote>
-          </div>
+            <h3 class="header" ng-bind="::feature.title"></h3>
+            <p class="description" ng-bind="::feature.description"></p>
+          </li>
+        </ul>
+
+        <br>
+        <blockquote>
+          <p><strong>Open Source Status</strong>: <span ng-bind="service.status"></span></p>
+        </blockquote>
       </div>
+    </div>
 
-      <hr>
-      {% endfor %}
+    <hr>
 
   </div>
 
   <div class="splash-footer">
-      <p>{{ page.footer }}</p>
+    <p>{{ page.footer }}</p>
   </div>
 
-    <script type="text/javascript">
-      (function() {
+  <script type="text/json" id="showcase_json">
+    {{ site.data.showcase | jsonify }}
+  </script>
 
-        var landingBackground = document.getElementsByClassName('splash-header')[0];
-        {% if page.background_image %}
-          landingBackground.style.backgroundImage = 'url({{ page.background_image }})';
-        {% else %}
-          landingBackground.style.backgroundImage = 'url(assets/img/landing_4.jpg)';
-        {% endif %}
+  {% include footer.html %} 
 
-      })();
-    </script>
-
-
-  </body>
+</body>
 
 </html>

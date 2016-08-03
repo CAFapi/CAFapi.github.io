@@ -16,5 +16,5 @@ baseurl: "/cafapi"
 # Build settings
 markdown: kramdown
 highlighter: rouge
-exclude: ['Gemfile', 'Gemfile.lock']
+exclude: ['Gemfile', 'Gemfile.lock', 'node_modules']
 gems: [jekyll-coffeescript, jekyll-watch, jekyll-assets]
