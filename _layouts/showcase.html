@@ -8,8 +8,8 @@
   <div class="splash-header">
     <div class="caf-brand">
       <img class="logo" src="{{ page.logo }}" alt="">
-      <h2 class="title">{{ page.title }}</h2>
-      <h3 class="slogan">{{ page.slogan }}</h3>
+      <h2 class="title" localize-text="product_title"></h2>
+      <h3 class="slogan" localize-text="product_slogan"></h3>
     </div>
   </div>
 
@@ -41,7 +41,7 @@
 
         <br>
         <blockquote>
-          <p><strong>Open Source Status</strong>: <span ng-bind="::service.status"></span></p>
+          <p><strong localize-text="open_source_status">Open Source Status</strong>: <span ng-bind="::service.status"></span></p>
         </blockquote>
       </div>
     </div>
@@ -56,6 +56,10 @@
 
   <script type="text/json" id="showcase_json">
     {{ site.data.showcase | jsonify }}
+  </script>
+
+  <script type="text/json" id="localization_json">
+    {{ site.data.localization | jsonify }}
   </script>
 
   {% include footer.html %} 
