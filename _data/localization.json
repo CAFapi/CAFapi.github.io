@@ -1,7 +1,7 @@
 {
     "en-us": {
-        "open_source_status": "Open Source Status",
-        "product_title": "Common Application Framework <br><small>from the Big Data group at Hewlett Packard Enterprise</small>",
-        "product_slogan": "The Microservices based solution to your Big Data Analytics problems the <br>Common Application Framework accelerates time to value."
+        "product_title": "HPE Common Application Framework",
+        "product_subtitle": "From the Big Data group at Hewlett Packard Enterprise",
+        "product_slogan": "The microservices solution for your big data analytics problems."
     }
 }

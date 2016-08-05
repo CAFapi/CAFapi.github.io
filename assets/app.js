@@ -11,13 +11,13 @@ function MainCtrl(localizeService, $templateCache, $sce) {
     var active_language = localizeService.getActiveLanguage();
 
     // get a localized version of the header
-    var localized_header = localizeService.getLocalised(json.header, active_language);
+    var localized_introduction = localizeService.getLocalised(json.introduction, active_language);
 
     // get the header markdown
-    var header_md = $templateCache.get(localized_header);
+    var introduction_md = $templateCache.get(localized_introduction);
 
     // parse markdown
-    vm.header = $sce.trustAsHtml(markdown.toHTML(header_md));
+    vm.introduction = $sce.trustAsHtml(markdown.toHTML(introduction_md));
 
     // get localized versions of all the services
     vm.services = Object.keys(json.services).map(function(index) {
@@ -26,6 +26,12 @@ function MainCtrl(localizeService, $templateCache, $sce) {
 
         // get the markdown
         var md = $templateCache.get(localized.content);
+
+        // if template loading fails for some odd reason
+        if(!md) {
+            localized.content = "";
+            return localized;
+        }
 
         // parse markdown
         localized.content = $sce.trustAsHtml(markdown.toHTML(md));

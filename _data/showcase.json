@@ -1,127 +1,25 @@
 {
-    "header": {
+    "introduction": {
         "en-us": "showcase/en-us/introduction.md"
     },
     "services": [
         {
             "en-us": {
-                "content": "showcase/en-us/data_processing.md",
-                "status": "This service is currently in the process of being approved for open sourcing.",
-                "features": [
-                    {
-                        "icon": "hpe-language",
-                        "title": "Language Detection",
-                        "description": "Determines the languages present in a section of text"
-                    },
-                    {
-                        "icon": "hpe-document-missing",
-                        "title": "Boilerplate Removal",
-                        "description": "Removes commonly used text such as legal disclaimers"
-                    },
-                    {
-                        "icon": "hpe-inherit",
-                        "title": "Classification",
-                        "description": "Uses natural language processing to classify data into user-defined categories"
-                    },
-                    {
-                        "icon": "hpe-mail",
-                        "title": "Email Signature Detection",
-                        "description": "Automatically identifies and segregates signature sections from emails"
-                    },
-                    {
-                        "icon": "hpe-directions",
-                        "title": "Email Key Content Segregation",
-                        "description": "Separates the top reply of email from previous replies"
-                    },
-                    {
-                        "icon": "hpe-tag",
-                        "title": "Numeric ID Tagging",
-                        "description": "Applies a unique identifier to files processed by the Data Processing service for tracking purposes"
-                    },
-                    {
-                        "icon": "hpe-clone",
-                        "title": "Entity Extraction",
-                        "description": "Constructs structured data, such as addresses, from unstructured text"
-                    },
-                    {
-                        "icon": "hpe-notes",
-                        "title": "OCR",
-                        "description": "Extracts text from images for further data processing actions"
-                    },
-                    {
-                        "icon": "hpe-microphone",
-                        "title": "Speech",
-                        "description": "Extracts text from audio for further data processing actions"
-                    },
-                    {
-                        "icon": "hpe-document-text",
-                        "title": "Text Extract",
-                        "description": "Extracts text, metadata and sub files from a wide range of file types"
-                    }
-                ]
+                "content": "showcase/en-us/services/data_processing.md",
+                "color": "purple" 
             }
         },
         {
             "en-us": {
-                "content": "showcase/en-us/storage_service.md",
-                "status": "This service is currently in the process of being approved for open sourcing.",
-                "features": []
+                "content": "showcase/en-us/services/elements.md",
+                "color": "white",
+                "image": "assets/img/elements-image.png"
             }
         },
         {
             "en-us": {
-                "content": "showcase/en-us/analytics.md",
-                "status": "This service is currently in the process of being approved for open sourcing.",
-                "features": []
-            }
-        },
-        {
-            "en-us": {
-                "content": "showcase/en-us/elements.md",
-                "status": "This service is currently in the process of being approved for open sourcing.",
-                "features": []
-            }
-        },
-        {
-            "en-us": {
-                "content": "showcase/en-us/identity_management.md",
-                "status": "This service is currently in the process of being approved for open sourcing.",
-                "features": []
-            } 
-        },
-        {
-            "en-us": {
-                "content": "showcase/en-us/auditing.md",
-                "status": "This service is currently in the process of being approved for open sourcing.",
-                "features": []
-            }
-        },
-        {
-            "en-us": {
-                "content": "showcase/en-us/worker_framework.md",
-                "status": "This service has been approved for open sourcing. This repository will be publically available September 2016",
-                "features": []
-            }
-        },
-        {
-            "en-us": {
-                "content": "showcase/en-us/job_service.md",
-                "status": "This service is currently in the process of being approved for open sourcing.",
-                "features": []
-            }
-        },
-        {
-            "en-us": {
-                "content": "showcase/en-us/auto_scaler.md",
-                "status": "This service is currently in the process of being approved for open sourcing.",
-                "features": []
-            }
-        },
-        {
-            "en-us": {
-                "content": "showcase/en-us/marathon_loader.md",
-                "status": "This service is currently in the process of being approved for open sourcing.",
-                "features": []
+                "content": "showcase/en-us/services/storage.md",
+                "color": "bronze" 
             }
         }
     ]

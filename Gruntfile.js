@@ -17,7 +17,7 @@ module.exports = function(grunt) {
         },
         watch: {
             controllers: {
-                files: ['_sections/**/*.md'],
+                files: ['showcase/**/*.md'],
                 tasks: ['clean:bundle', 'ngtemplates', 'clean:html'],
                 options: {
                     spawn: true,
