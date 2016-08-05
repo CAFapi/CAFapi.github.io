@@ -1,0 +1,26 @@
+{
+    "introduction": {
+        "en-us": "showcase/en-us/introduction.md"
+    },
+    "services": [
+        {
+            "en-us": {
+                "content": "showcase/en-us/services/data_processing.md",
+                "color": "purple" 
+            }
+        },
+        {
+            "en-us": {
+                "content": "showcase/en-us/services/elements.md",
+                "color": "white",
+                "image": "assets/img/elements-image.png"
+            }
+        },
+        {
+            "en-us": {
+                "content": "showcase/en-us/services/storage.md",
+                "color": "bronze" 
+            }
+        }
+    ]
+}
