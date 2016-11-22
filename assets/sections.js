@@ -49,6 +49,12 @@ angular.module('cafapi.templates', []).run(['$templateCache', function($template
   );
 
 
+  $templateCache.put('showcase/en-us/services/application-resources.md',
+    "The Application Resources service provides a RESTful API to create and manage application metadata.  The service uses entities and associations to store metadata in a hierarchical and non-hierarchical manner. The API is designed to be used in a  SaaS environment and is built to be multi-tenant aware.\r" +
+    "\n"
+  );
+
+
   $templateCache.put('showcase/en-us/services/auditing.md',
     "The Audit service allows you to audit user and system actions by defining the required events and the information associated with each event.\r" +
     "\n" +

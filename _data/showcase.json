@@ -67,21 +67,6 @@
         },
         {
             "en-us": {
-                "title": "Application Resources", 
-                "content": "showcase/en-us/services/application-resources.md",
-                "color": "bronze",
-		"site_button": {
-                    "text": "Application Resources Site",
-                    "url": "https://pages.github.hpe.com/caf/application-resources"
-                },
-                "repository_button": {
-                    "text": "Application Resources on GitHub",
-                    "url": "https://github.hpe.com/caf/application-resources"
-               }
-            }
-        },
-        {
-            "en-us": {
                 "title": "Identity Management", 
                 "content": "showcase/en-us/services/identity_management.md",
                 "color": "steel" ,
@@ -171,6 +156,21 @@
                     "text": "Imaging Service on GitHub",
                     "url": "https://github.hpe.com/caf/imaging"
                 }
+            }
+        },
+        {
+            "en-us": {
+                "title": "Application Resources", 
+                "content": "showcase/en-us/services/application-resources.md",
+                "color": "white",
+		"site_button": {
+                    "text": "Application Resources Site",
+                    "url": "https://pages.github.hpe.com/caf/application-resources"
+                },
+                "repository_button": {
+                    "text": "Application Resources on GitHub",
+                    "url": "https://github.hpe.com/caf/application-resources"
+               }
             }
         }
     ]
