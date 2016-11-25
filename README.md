@@ -1,15 +1,8 @@
-# CAF Documentation Site
+### Accelerate your time to value
+
+The HPE Common Application Framework is a collection of microservices essential for any developer of big data applications. We are the recognized leaders in delivering big data enterprise applications and we designed these services to form the core of our next generation archiving, back-up, content management, and analytics products.
+
+We're committed to open-sourcing all of these services to more rapidly fuel innovation in the community as well as to provide standards with regards to the management of unstructured information at scale.
 
 View the site here: http://cafapi.github.io/
-
-Find useful links on how to begin writing documentation below:
-
-[Getting Started](developer_docs/getting_started.md)  
-[Learn Markdown](https://guides.github.com/features/mastering-markdown/)  
-[Using Layouts](developer_docs/using_layouts.md)  
-[Site Navigation](developer_docs/navigation.md)  
-[Supporting Localization](developer_docs/localization.md)  
-[Updating Submodules](developer_docs/submodules.md)
-
-For complete instructions on how to build the Jekyll Project [click here](developer_docs/building_jekyll.md)
 
