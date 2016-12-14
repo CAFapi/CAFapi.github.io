@@ -148,7 +148,15 @@
                 "title": "Marathon Loader", 
                 "content": "showcase/en-us/services/marathon_loader.md",
                 "color": "white",
-                "image": "assets/img/marathon-loader.png"
+                "image": "assets/img/marathon-loader.png",
+                "site_button": {
+                    "text": "Marathon Loader Site",
+                    "url": "https://pages.github.hpe.com/caf/marathon-loader/index.html"
+                },
+                "repository_button": {
+                    "text": "Marathon Loader on GitHub",
+                    "url": "https://github.hpe.com/caf/marathon-loader"
+                }
             }
         },
         {
