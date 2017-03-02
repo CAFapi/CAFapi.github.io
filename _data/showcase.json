@@ -89,11 +89,11 @@
                 "image": "assets/img/audit.png",
                 "site_button": {
                     "text": "Auditing Site",
-                    "url": "https://pages.github.hpe.com/caf/caf-audit"
+                    "url": "https://pages.github.hpe.com/caf/audit-service"
                 },
                 "repository_button": {
                     "text": "Auditing on GitHub",
-                    "url": "https://github.hpe.com/caf/caf-audit"
+                    "url": "https://github.hpe.com/caf/audit-service"
                 }
             }
         },
