@@ -135,11 +135,11 @@
                 "color": "bronze",
                 "site_button": {
                     "text": "Auto Scaler Site",
-                    "url": "https://pages.github.hpe.com/caf/autoscaler"
+                    "url": "https://autoscaler.github.io/autoscaler/"
                 },
                 "repository_button": {
                     "text": "Auto Scaler on GitHub",
-                    "url": "https://github.hpe.com/caf/autoscaler"
+                    "url": "https://github.com/Autoscaler"
                 }
             }
         },
