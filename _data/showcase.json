@@ -120,11 +120,11 @@
                 "image": "assets/img/job-service.png",
                 "site_button": {
                     "text": "Job Service Site",
-                    "url": "https://pages.github.hpe.com/caf/job-service/index.html"
+                    "url": "https://jobservice.github.io/job-service"
                 },
                 "repository_button": {
                     "text": "Job Service on GitHub",
-                    "url": "https://github.hpe.com/caf/job-service"
+                    "url": "https://github.com/JobService/job-service"
                 }
             }
         },
