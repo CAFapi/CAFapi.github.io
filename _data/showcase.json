@@ -20,17 +20,17 @@
         },
         {
             "en-us": {
-                "title": "Elements - User Experience",                
-                "content": "showcase/en-us/services/elements.md",
+                "title": "UX Aspects",                
+                "content": "showcase/en-us/services/aspects.md",
                 "color": "white",
                 "image": "assets/img/elements-image.png",
                 "site_button": {
-                    "text": "Elements Site",
-                    "url": "https://pages.github.hpe.com/caf/elements"
+                    "text": "Aspects Site",
+                    "url": "https://uxaspects.github.io/UXAspects"
                 },
                 "repository_button": {
-                    "text": "Elements on GitHub",
-                    "url": "https://github.hpe.com/caf/elements"
+                    "text": "Aspects on GitHub",
+                    "url": "https://github.com/UXAspects/UXAspects"
                 }
             }
         },
