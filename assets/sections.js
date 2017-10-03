@@ -66,16 +66,6 @@ angular.module('cafapi.templates', []).run(['$templateCache', function($template
   );
 
 
-  $templateCache.put('showcase/en-us/services/identity_management.md',
-    "The Identity Management service provides authentication and authorization of end users as well as other, related micro-services. The Identity\n" +
-    "Management service implements authentication and authorization of end users as well as other, related micro-services. Authentication uses the\n" +
-    "industry standard OAUTH 2.0 protocol with encrypted tokens of varying life spans. For user management, Identity Management supports\n" +
-    "enterprise hierarchy and AD/LDAP for customer hierarchy. Any number of applications can register their roles and permissions with the service.\n" +
-    "Application administrators can assign application-specific roles and permissions to users. Leveraging this service relieves you of having to create\n" +
-    "these core building blocks of any SaaS application on your own.\n"
-  );
-
-
   $templateCache.put('showcase/en-us/services/imaging.md',
     "The Imaging service provides the ability to convert between HTML and searchable PDF, as well as between PDF and JPEG, PNG, TIFF and other common image formats. In addition to format conversion, the Imaging service supports document mark-up with redactions and endorsements. Redactions can permanently remove sensitive content from documents while endorsements can add text annotations to documents.\n" +
     "\n"

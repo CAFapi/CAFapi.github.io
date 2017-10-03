@@ -67,22 +67,6 @@
         },
         {
             "en-us": {
-                "title": "Identity Management", 
-                "content": "showcase/en-us/services/identity_management.md",
-                "color": "steel" ,
-               "site_button": {
-                    "text": "Identity Management Site",
-                    "url": "https://pages.github.hpe.com/caf/identity-management"
-                },
-                "repository_button": {
-                    "text": "Identity Management on GitHub",
-                    "url": "https://github.houston.softwaregrp.net/caf/identity-management"
-                }
-
-            }
-        },
-        {
-            "en-us": {
                 "title": "Auditing", 
                 "content": "showcase/en-us/services/auditing.md",
                 "color": "white",
