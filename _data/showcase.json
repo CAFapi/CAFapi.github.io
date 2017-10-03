@@ -45,7 +45,7 @@
                 },
                 "repository_button": {
                     "text": "Storage Service on GitHub",
-                    "url": "https://github.hpe.com/caf/storage-services"
+                    "url": "https://github.houston.softwaregrp.net/caf/caf-storage"
                 }
             }
         },
@@ -61,7 +61,7 @@
                 },
                 "repository_button": {
                     "text": "Analytics on GitHub",
-                    "url": "https://github.hpe.com/caf/search-and-analytics"
+                    "url": "https://github.houston.softwaregrp.net/caf/search-and-analytics"
                }
             }
         },
@@ -76,7 +76,7 @@
                 },
                 "repository_button": {
                     "text": "Identity Management on GitHub",
-                    "url": "https://github.hpe.com/caf/identity-management"
+                    "url": "https://github.houston.softwaregrp.net/caf/identity-management"
                 }
 
             }
@@ -155,7 +155,7 @@
                 },
                 "repository_button": {
                     "text": "Marathon Loader on GitHub",
-                    "url": "https://github.hpe.com/caf/marathon-loader"
+                    "url": "https://github.houston.softwaregrp.net/caf/marathon-loader"
                 }
             }
         },
@@ -170,7 +170,7 @@
                 },
                 "repository_button": {
                     "text": "Imaging Service on GitHub",
-                    "url": "https://github.hpe.com/caf/imaging"
+                    "url": "https://github.houston.softwaregrp.net/caf/imaging"
                 }
             }
         },
@@ -185,7 +185,7 @@
                 },
                 "repository_button": {
                     "text": "Application Resources on GitHub",
-                    "url": "https://github.hpe.com/caf/application-resources"
+                    "url": "https://github.houston.softwaregrp.net/caf/application-resources"
                }
             }
         }
