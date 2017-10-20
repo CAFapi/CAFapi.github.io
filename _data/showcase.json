@@ -41,7 +41,7 @@
                 "color": "bronze",
 		"site_button": {
                     "text": "Storage Service Site",
-                    "url": "https://pages.github.hpe.com/caf/storage-services"
+                    "url": "https://pages.github.houston.softwaregrp.net/caf/caf-storage/"
                 },
                 "repository_button": {
                     "text": "Storage Service on GitHub",
