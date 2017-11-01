@@ -1,6 +1,6 @@
 # Accelerate your time to value
 
-The HPE Common Application Framework is a collection of microservices essential for any developer of big data applications. 
+The Common Application Framework is a collection of microservices essential for any developer of big data applications. 
 We are the recognized leaders in delivering big data enterprise applications and we designed these services to form the core of our next generation archiving, 
 back-up, content management, and analytics products.
 
