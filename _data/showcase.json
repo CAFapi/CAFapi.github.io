@@ -51,25 +51,9 @@
         },
         {
             "en-us": {
-                "title": "Analytics", 
-                "content": "showcase/en-us/services/analytics.md",
-                "color": "white",
-                "image": "assets/img/analytics.jpg",
-		"site_button": {
-                    "text": "Analytics Site",
-                    "url": "https://pages.github.hpe.com/caf/search-and-analytics"
-                },
-                "repository_button": {
-                    "text": "Analytics on GitHub",
-                    "url": "https://github.houston.softwaregrp.net/caf/search-and-analytics"
-               }
-            }
-        },
-        {
-            "en-us": {
                 "title": "Auditing", 
                 "content": "showcase/en-us/services/auditing.md",
-                "color": "steel",
+                "color": "white",
                 "image": "assets/img/audit.png",
                 "site_button": {
                     "text": "Auditing Site",
@@ -85,7 +69,7 @@
             "en-us": {
                 "title": "Worker Framework", 
                 "content": "showcase/en-us/services/worker_framework.md",
-                "color": "white",
+                "color": "steel",
                 "site_button": {
                     "text": "Worker Framework Site",
                     "url": "https://workerframework.github.io/worker-framework"
@@ -100,7 +84,7 @@
             "en-us": {
                 "title": "Job Service", 
                 "content": "showcase/en-us/services/job_service.md",
-                "color": "purple" ,
+                "color": "white" ,
                 "image": "assets/img/job-service.png",
                 "site_button": {
                     "text": "Job Service Site",
@@ -116,7 +100,7 @@
             "en-us": {
                 "title": "Auto Scaler", 
                 "content": "showcase/en-us/services/auto_scaler.md",
-                "color": "white",
+                "color": "purple",
                 "site_button": {
                     "text": "Auto Scaler Site",
                     "url": "https://autoscaler.github.io/autoscaler/"
@@ -131,7 +115,7 @@
             "en-us": {
                 "title": "Marathon Loader", 
                 "content": "showcase/en-us/services/marathon_loader.md",
-                "color": "bronze",
+                "color": "white",
                 "image": "assets/img/marathon-loader.png",
                 "site_button": {
                     "text": "Marathon Loader Site",
@@ -141,36 +125,6 @@
                     "text": "Marathon Loader on GitHub",
                     "url": "https://github.houston.softwaregrp.net/caf/marathon-loader"
                 }
-            }
-        },
-        {
-            "en-us": {
-                "title": "Imaging", 
-                "content": "showcase/en-us/services/imaging.md",
-                "color": "white",
-                "site_button": {
-                    "text": "Imaging Service Site",
-                    "url": "https://pages.github.hpe.com/caf/imaging/index.html"
-                },
-                "repository_button": {
-                    "text": "Imaging Service on GitHub",
-                    "url": "https://github.houston.softwaregrp.net/caf/imaging"
-                }
-            }
-        },
-        {
-            "en-us": {
-                "title": "Application Resources", 
-                "content": "showcase/en-us/services/application-resources.md",
-                "color": "steel",
-		"site_button": {
-                    "text": "Application Resources Site",
-                    "url": "https://pages.github.hpe.com/caf/application-resources"
-                },
-                "repository_button": {
-                    "text": "Application Resources on GitHub",
-                    "url": "https://github.houston.softwaregrp.net/caf/application-resources"
-               }
             }
         }
     ]
